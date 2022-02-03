@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/test_task_figma/static/css/main.764c6bb1.css",
+    "main.js": "/test_task_figma/static/js/main.b474ea88.js",
+    "static/media/banner.png": "/test_task_figma/static/media/banner.a773e1393730b7ac1bda.png",
+    "static/media/color.png": "/test_task_figma/static/media/color.5c2bbb99babd12d25f81.png",
+    "static/media/info1.png": "/test_task_figma/static/media/info1.4b33be8ae71fea0e68ee.png",
+    "static/media/dbg.png": "/test_task_figma/static/media/dbg.210863a9a5b95a8e1e67.png",
+    "index.html": "/test_task_figma/index.html",
+    "main.764c6bb1.css.map": "/test_task_figma/static/css/main.764c6bb1.css.map",
+    "main.b474ea88.js.map": "/test_task_figma/static/js/main.b474ea88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.764c6bb1.css",
+    "static/js/main.b474ea88.js"
+  ]
+}
