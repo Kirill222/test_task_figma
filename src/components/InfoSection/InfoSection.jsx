@@ -26,7 +26,9 @@ export const InfoSection = () => {
           </div>
           <div className='cta'>
             <h4>Generate more revenue</h4>
-            <p>Create memorable customer experiences that boost revenue.</p>
+            <p>
+              Create memorable customer <br /> experiences that boost revenue.
+            </p>
           </div>
         </div>
 
@@ -36,7 +38,10 @@ export const InfoSection = () => {
           </div>
           <div className='cta'>
             <h4>Improve satisfaction</h4>
-            <p>Delight your customers with lightning-fast responses.</p>
+            <p>
+              Delight your customers with
+              <br /> lightning-fast responses.
+            </p>
           </div>
         </div>
 
@@ -47,7 +52,8 @@ export const InfoSection = () => {
           <div className='cta'>
             <h4>Boost customer value</h4>
             <p>
-              Make more sales by keeping your customers loyal to your brand.
+              Make more sales by keeping your <br /> customers loyal to your
+              brand.
             </p>
           </div>
         </div>
