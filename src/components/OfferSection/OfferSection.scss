@@ -1,0 +1,295 @@
+.offer-section {
+  position: relative;
+  max-width: 100%;
+  background: url('../../assets/images/color.png') no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.offer-section__content {
+  position: relative;
+  top: 23px;
+  left: -18px;
+  padding: 60px 138px;
+  display: flex;
+
+  background: linear-gradient(
+    101.99deg,
+    rgba(255, 255, 255, 0.35) 8.08%,
+    rgba(255, 255, 255, 0.57) 97.45%
+  );
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-radius: 16px;
+  margin-bottom: 238px;
+}
+
+.offer-description {
+  max-width: 432px;
+  height: 372px;
+  margin-right: 110px;
+
+  .header-small {
+    color: #fa9531;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 34px;
+  }
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #050505;
+    margin-bottom: 27px;
+  }
+
+  .button {
+    width: 185px;
+    height: 53px;
+  }
+}
+
+.offer-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 597px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  width: 279px;
+  height: 425px;
+  padding: 40px 46px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  img {
+    width: 60px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  .card-content-wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+    height: 100%;
+  }
+  .card_header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    //margin-top: 100px;
+    margin-bottom: 25px;
+  }
+
+  .card-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #65676b;
+    font-size: 16px;
+    line-height: 24px;
+    height: 72px;
+    margin-bottom: 20px;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #050505;
+  }
+
+  .card-cta {
+    margin-top: auto;
+    width: 160px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    border: 1px solid #050505;
+    display: grid;
+    place-items: center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background: #f4f4f6;
+      cursor: pointer;
+    }
+  }
+}
+
+.card:nth-child(2) > img {
+  width: 82px;
+  top: 18px;
+}
+
+@media (max-width: 1409px) {
+  .offer-section__content {
+    padding: 50px 100px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .offer-description {
+    max-width: 430px;
+    margin-right: 35px;
+    br {
+      display: none;
+    }
+    .header-small {
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 1119px) {
+  .offer-section__content {
+    padding: 20px;
+  }
+
+  .offer-description {
+    .header-small {
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .card {
+    width: 250px;
+    height: 400px;
+    padding: 40px 20px 40px 25px;
+
+    .card-content-wrapper {
+      margin-top: 60px;
+    }
+
+    br {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1049px) {
+  .offer-section__content {
+    flex-direction: column;
+    left: 0;
+
+    .offer-description {
+      padding: 0;
+      max-width: 600px;
+      height: auto;
+      margin-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    ////////////////////////////////
+    .offer-cards {
+      display: flex;
+      justify-content: space-between;
+      max-width: 597px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      width: 279px;
+      height: 425px;
+      padding: 40px 46px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      img {
+        width: 60px;
+        position: absolute;
+        top: 40px;
+        left: 40px;
+      }
+
+      .card-content-wrapper {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        //justify-content: space-between;
+        height: 100%;
+      }
+      .card_header {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        //margin-top: 100px;
+        margin-bottom: 25px;
+      }
+
+      .card-desc {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #65676b;
+        font-size: 16px;
+        line-height: 24px;
+        height: 72px;
+        margin-bottom: 20px;
+      }
+
+      .price {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #050505;
+      }
+    }
+    ////////////////////////////////
+  }
+}
+
+@media (max-width: 630px) {
+  .offer-section__content {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .offer-cards {
+    flex-direction: column;
+    width: 279px;
+
+    .card:first-child {
+      margin-bottom: 10px;
+    }
+    .card {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
